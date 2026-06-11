@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/quran.png" alt="QuranBuddy Icon" width="80" height="80" />
+  <img src="public/icon.ico" alt="QuranBuddy Icon" width="80" height="80" />
 
   # <span style="font-weight:300">Quran</span><span style="color:#b59043;font-weight:700">Buddy</span>
 
