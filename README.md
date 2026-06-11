@@ -20,7 +20,7 @@
 
 ## Features
 
-### 📖 Quran Reader
+### Quran Reader
 - All **114 surahs** with Uthmani Arabic text
 - **Saheeh International** translation (toggle on/off)
 - **Tajweed color-coded** text highlighting 12 rules (ghunnah, ikhafa, qalaqah, madda variants, idgham types, etc.)
@@ -28,7 +28,7 @@
 - **Verse-by-verse audio** with full playback controls
 - Smooth scroll with [Lenis](https://lenis.darkroom.engineering)
 
-### 🎵 Audio System
+### Audio System
 - **10 custom reciters** including Maher Al Muaiqly, Yasser Al Dossari, Salah Bukhatir, and more
 - **Full audio player** with play/pause, skip, shuffle, repeat, seek bar, volume control
 - **Play queue** — build a playlist of surahs
@@ -37,7 +37,7 @@
 - **Real-time download progress** with speed and ETA
 - **Audio output device selection** (when supported)
 
-### 🕌 Prayer Times
+### Prayer Times
 - **5 daily prayer times** fetched from the [Aladhan API](https://aladhan.com)
 - **Countdown timer** to the next prayer
 - **Hijri date** display
@@ -45,12 +45,12 @@
 - **Pre-prayer reminders** (customizable minutes before)
 - **Azan preview** from within the app
 
-### 🔍 Search
+### Search feature
 - **Global verse search** across the entire Quran
 - Results display Arabic text (with tajweed) and translation
 - Click to navigate directly to the verse in its surah
 
-### 🎨 UI & Experience
+### UI & Experience
 - **Dark / Light / System** theme modes (toggle with `D` key)
 - **Custom title bar** with native window controls (minimize, maximize, close)
 - **Command palette** (`cmdk`) for quick navigation
@@ -58,7 +58,7 @@
 - **Page transitions** with Framer Motion
 - **System tray** — minimize to tray with show/hide
 
-### ⚙️ Settings
+### Settings
 - City, country, and prayer calculation method (14 methods)
 - Tajweed and translation toggles
 - Azan style and volume
@@ -94,10 +94,10 @@ Internet is required for the initial fetch of verses, translations, and prayer t
 In the app's data directory: `%APPDATA%/quranbuddy/audio/` on Windows, `~/.local/share/quranbuddy/audio/` on Linux, and `~/Library/Application Support/quranbuddy/audio/` on macOS.
 
 ### How do I add surahs to the play queue?
-Open the **audio player bar** (bottom of the screen while playing), click the **queue** button, then **Add** to search and add surahs. The queue persists across page navigation within your session.
+Open the **audio player bar** (bottom of the screen while playing), click the **queue** button, then **+** to search and add surahs. The queue persists across page navigation within your session.
 
 ### Why are some surahs greyed out?
-Reciters like Younes Souilass (65 surahs) and Hazza Al-Balushi (91 surahs) have only recorded a subset of the Quran. Unavailable surahs are shown at 40% opacity with a tooltip.
+Reciters like Younes Souilass (65 surahs) and Hazza Al-Balushi (91 surahs) have only recorded a subset of the Quran. Unavailable surahs are greyed out.
 
 ### How do I change reciters?
 Use the **reciter selector** in the audio player bar, or switch from the surah page's toolbar. Your selection is saved.
@@ -123,7 +123,7 @@ Enable **Prayer Notifications** in Settings or on the Prayer Times page. A backg
 Go to **Settings → Advanced → Reset to Defaults**. This clears all settings and returns the app to its initial state. Downloaded audio files are not affected.
 
 ### How do I report a bug or request a feature?
-Open an issue at [github.com/anomalyco/quranbuddy](https://github.com/anomalyco/quranbuddy).
+Open an issue at [github.com/anomalyco/quranbuddy](https://github.com/mnsartawi/quranbuddy).
 
 ---
 
