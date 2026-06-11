@@ -16,6 +16,7 @@ function ThemeProvider({
       {...props}
     >
       <ThemeHotkey />
+      <ThemeColorUpdater />
       {children}
     </NextThemesProvider>
   )
@@ -32,6 +33,22 @@ function isTypingTarget(target: EventTarget | null) {
     target.tagName === "TEXTAREA" ||
     target.tagName === "SELECT"
   )
+}
+
+function ThemeColorUpdater() {
+  const { resolvedTheme } = useTheme()
+
+  React.useEffect(() => {
+    const meta = document.querySelector('meta[name="theme-color"]')
+    if (meta) {
+      meta.setAttribute(
+        "content",
+        resolvedTheme === "dark" ? "#181818" : "#ffffff"
+      )
+    }
+  }, [resolvedTheme])
+
+  return null
 }
 
 function ThemeHotkey() {
